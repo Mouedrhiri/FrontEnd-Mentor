@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Manrope";
+  src: url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+}
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: hsl(218, 23%, 16%);
+}
+.card {
+  transform: translateY(150px);
+  text-align: center;
+  background-color: hsl(217, 19%, 24%);
+  width: 400px;
+  padding: 30px;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card #quote {
+  font-weight: 800;
+  font-size: 28px;
+  padding: 20px;
+  color: white;
+  margin-bottom: -15px;
+}
+.card #quotenum {
+  color: hsl(150, 100%, 66%);
+}
+.card #devider img {
+  width: 97%;
+  padding-bottom: 20px;
+  transform: translateY(47px);
+}
+footer {
+  transform: translateY(300px);
+}
+.card #btn {
+  cursor: pointer;
+  transform: translateY(50px);
+  background-color: hsl(150, 100%, 60%);
+  padding: 10px;
+  width: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+}
+.card #btn:hover {
+  box-shadow: 0px 0px 20px #53ffaa;
+}
+.card #btn img {
+  transform: translateY(3px);
+}
+@media (max-width: 768px) {
+  .card {
+    width: 300px;
+  }
+  .card #btn {
+    width: 25px;
+    padding: 8px;
+  }
+  .card #devider img {
+    width: 90%;
+  }
+}
